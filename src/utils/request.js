@@ -5,7 +5,9 @@ import axios from "axios";
 import { ElMessage } from 'element-plus'
 
 //定义一个变量，记录公共的前缀
+// 这是本地测试时使用的地址
 // const baseURL = 'http://localhost:8080';
+// 这是线上部署时使用的地址
 const baseURL = 'https://api.geeknews.tech';
 const instance = axios.create({baseURL});
 

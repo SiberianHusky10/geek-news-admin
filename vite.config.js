@@ -29,6 +29,9 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
+        //这是本地测试时使用的地址
+        // target: 'http://localhost:8080',
+        //这是线上部署时使用的地址
         target: 'https://api.geeknews.tech',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, '')
