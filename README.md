@@ -4,7 +4,7 @@ This template should help get you started developing with Vue 3 in Vite.
 
 ## Prepare the environment
 
-You need to install Node.js before running the project.
+You need to install Node.js before running the project.This is the official website: https://nodejs.org/en
 
 ## Customize configuration
 
